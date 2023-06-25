@@ -1,12 +1,3 @@
-@import url('reset.css');
-@import url('global.css');
-@import url('components/_navigator.css');
-@import url('components/_pills.css');
-@import url('components/_link-button.css');
-@import url('components/_gallery.css');
-@import url('../../pages/tom-holland/style-tom.css/spider-tom.css');
-@import url('components/spider-tom-pages.css');
-
 .s-wrapper {
     display: flex;
     height: 100vh;
@@ -32,10 +23,6 @@
     z-index: 1;
 }
 
-.s-wrapper .s-left-column .navigator ul li a:hover {
-    color: var(--cor-vermelho);
-}
-
 .s-wrapper .s-main-content {
     height: 100%;
     width: 100%; 
@@ -58,7 +45,7 @@
 }
 
 .s-wrapper .s-main-content__top .s-logo img {
-    width: 50%;
+    width: 55%;
     margin-top: 30px;
     margin-left: 0;
     margin-bottom: 15px;
@@ -90,25 +77,4 @@
 .s-wrapper .s-main-content .s-links ul {
     display: flex;
     flex-direction: row;
-}
-
-.s-spiderman-01-01 {
-    background-image: url('../images/spiderman-tobey/movie-01/background.png');
-    background-size: cover;
-}
-
-.s-spiderman-01-02 {
-    background-image: url('../images/spiderman-tobey/movie-02/background.png');
-    background-size: cover;
-}
-
-.s-spiderman-01-03 {
-    background-image: url('../images/spiderman-tobey/movie-03/background.png');
-    background-size: cover;
-}
-
-.s-spiderman-02-01 {
-    background-image: url('../images/spiderman-tom/movie-01/background.png');
-    background-size: cover;
-    background-position: center center;
 }
