@@ -4,14 +4,12 @@
 @import url('components/_pills.css');
 @import url('components/_link-button.css');
 @import url('components/_gallery.css');
-@import url('../../pages/tom-holland/style-tom.css/spider-tom.css');
-@import url('internal-tom.css');
 
 .s-wrapper {
     display: flex;
     height: 100vh;
     flex-flow: row nowrap;
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
 }
 
 .s-wrapper video {
@@ -26,20 +24,22 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    padding-right: 50px;
+    padding-right: 0;
     left: 0;
     top: 0;
     z-index: 1;
 }
 
-.s-wrapper .s-left-column .navigator ul li a:hover {
-    color: var(--cor-vermelho);
-    background-color: var(--cor-vermelho);
-}
+/*.s-wrapper .s-left-column .navigator ul li a:hover {
+    color: #89001F;
+    background-color: rgb(184, 34, 34);
+}*/
 
 .s-wrapper .s-main-content {
     height: 100%;
     width: 100%; 
+    background-size: cover;
+    background-attachment: fixed;
     padding-left: 130px;
     position: relative;
 }
@@ -59,16 +59,16 @@
 }
 
 .s-wrapper .s-main-content__top .s-logo img {
-    width: 50%;
-    margin-top: 30px;
-    margin-left: 0;
-    margin-bottom: 15px;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 3px;
 }
 
 
 .s-wrapper .s-main-content__top .s-description {
-    background-color: rgba(0, 0, 0, 0.507);
-    max-width: 50%;
+    background-color: rgba(0, 0, 0, 0.534);
+    max-width: 56%;
     padding: 10px;
     margin-bottom: 5px;
     border-radius: 10px;
@@ -93,23 +93,24 @@
     flex-direction: row;
 }
 
-.s-spiderman-01-01 {
-    background-image: url('../images/spiderman-tobey/movie-01/background.png');
-    background-size: cover;
-}
-
 .s-spiderman-01-02 {
-    background-image: url('../images/spiderman-tobey/movie-02/background.png');
-    background-size: cover;
-}
-
-.s-spiderman-01-03 {
-    background-image: url('../images/spiderman-tobey/movie-03/background.png');
-    background-size: cover;
-}
-
-.s-spiderman-02-01 {
     background-image: url('../images/spiderman-tom/movie-01/background.png');
     background-size: cover;
     background-position: center center;
+}
+
+.s-spiderman-02-02 {
+    background-image: url('../images/spiderman-tom/movie-02/background.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.s-spiderman-03-02 {
+    background-image: url('../images/spiderman-tom/movie-03/background.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.gallery-position .s-main-content__bottom .gallery ul li a{
+    max-width: 100px;
 }

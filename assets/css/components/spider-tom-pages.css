@@ -5,11 +5,6 @@
     background-color: aqua;
 }
 
-.s-wrapper video {
-    position: fixed;
-    width: 100%;
-    
-}
 .s-wrapper .s-left-column {
     width: 100px;
     height: 100%;
@@ -53,7 +48,7 @@
 
 
 .s-wrapper .s-main-content__top .s-description {
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: rgba(0, 0, 0, 0.514);
     max-width: 64%;
     padding: 10px;
     margin-bottom: 5px;
