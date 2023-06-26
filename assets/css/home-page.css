@@ -84,7 +84,8 @@ body::before {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
+    
 }
 
 .s-controller__button {

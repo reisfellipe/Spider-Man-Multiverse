@@ -59,7 +59,7 @@
 }
 
 .s-wrapper .s-main-content__top .s-logo img {
-    width: 40%;
+    width: 55%;
     margin-top: 10px;
     margin-left: 0px;
     margin-bottom: 3px;
@@ -111,6 +111,15 @@
     background-position: center center;
 }
 
+.s-spiderman-02-01 {
+    background-image: url('../images/spiderman-andrew/movie-01/background.png');
+    background-size: cover;
+}
+
+.s-spiderman-01-01 {
+    background-image: url('../images/spiderman-andrew/movie-02/background.png');
+    background-size: cover;
+}
 .gallery-position .s-main-content__bottom .gallery ul li a{
     max-width: 100px;
 }
