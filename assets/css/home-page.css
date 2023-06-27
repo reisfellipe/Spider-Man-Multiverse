@@ -98,11 +98,18 @@ body::before {
     border-radius: 50%;
     background-color: var(--cor-vermelho);
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
     z-index: 1;
     transition: transform 0.3s ease-in-out;
+}
+
+.s-controller__button--active {
+    background-color: white;
+    color: var(--cor-vermelho);
+    border: 0.1875rem solid var(--cor-vermelho);
+    outline: 0.125rem solid white;
 }
 
 .s-controller__button:hover {
