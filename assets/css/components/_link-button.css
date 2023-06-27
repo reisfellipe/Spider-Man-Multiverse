@@ -3,6 +3,10 @@ a.link-button {
     align-items: center;
     justify-content: center;
     color: white;
+    border: solid 3px white;
+    border-radius: 50px;
+    padding: 4px;
+    padding-right: 8px;
 }
 
 a.link-button .icon {
@@ -20,7 +24,7 @@ a.link-button .icon {
 }
 
 a.link-button .icon .play-icon {
-    border: solid 7px white;
+    border: solid 8px white;
     width: 0;
     height: 0;
     border-top-color: transparent;
